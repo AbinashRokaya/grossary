@@ -1,0 +1,49 @@
+/* ── Single Item ── */
+.single_item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  column-gap: 12px;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.single_item p {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #333;
+}
+
+.single_item.completed p {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.single_item input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #2d6a4f;
+}
+
+.single_item .btn {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.single_item .edit-btn:hover {
+  background: #e8f5e9;
+  border-color: #2d6a4f;
+}
+
+.single_item .remove-btn:hover {
+  background: #fdecea;
+  border-color: #e53935;
+}

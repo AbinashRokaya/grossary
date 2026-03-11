@@ -1,0 +1,49 @@
+.form-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d6a4f;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.grocery-form {
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.form-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: #2d6a4f;
+}
+
+.submit-btn {
+  padding: 10px 18px;
+  background-color: #2d6a4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.submit-btn:hover {
+  background-color: #1e4d38;
+}
